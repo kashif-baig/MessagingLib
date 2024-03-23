@@ -1,0 +1,7 @@
+{
+    "board": "arduino:avr:leonardo",
+    "port": "COM9",
+    "sketch": "Remote_Blink.ino",
+    "output": "../../.build/Remote_Blink",
+    "programmer": "Atmel STK500 development board"
+}
