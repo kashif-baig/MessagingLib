@@ -1,11 +1,8 @@
 /*
 
-Please visit https://www.cohesivecomputing.co.uk/arduino-web-development-pushing-the-limits/ to download
-necessary libraries and helpful utilities.
-
-Buy the ebook 'Arduino Web Development: Pushing the Limits'. It is accompanied by numerous coding examples
-and coding exercises to help the reader build the knowledge and confidence to become a skilled 
-Arduino web developer.
+Deploy project to two Arduinos, then connect them via their serial pins.
+Each Arduino will control the blinking of the built-in LED of the other
+Arduino.
 
 */
 
