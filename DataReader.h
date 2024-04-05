@@ -3,6 +3,21 @@
 
 #include "DataReaderBuffer.h"
 
+// Use this class to consume data from a DataReaderBuffer implementation.
+// Example usage:
+/*
+    if (dataReader->connected())
+    {
+        if (dataReader->itemAvailable())
+        {
+            // TODO get data item from DataReaderBuffer.
+            // TODO consume data item.
+            dataReader->moveNext();
+        }
+        // TODO return or yield.
+    }
+    // TODO if necessary, return or yield.
+*/
 class DataReader
 {
 public:
@@ -14,7 +29,7 @@ public:
     // Returns true if an item is available.
     bool itemAvailable() const;
 
-    // Move to the next directory item.
+    // Move to the next item.
     void moveNext();
 
 protected:
