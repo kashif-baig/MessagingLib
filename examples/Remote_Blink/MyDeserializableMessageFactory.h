@@ -20,7 +20,7 @@ union
 
 static char* Message = MessageUnion.Memory;
 
-// Used by the MessageListener to contruct the correct class instance for an
+// Used by the MessageListener to construct the correct class instance for an
 // incomming message.
 class MyDeserializableMessageFactory : public IDeserializableMessageFactory
 {
